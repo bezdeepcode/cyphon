@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/dunbarcyber/cyphon.svg?branch=master)](https://travis-ci.org/dunbarcyber/cyphon) [![Coverage Status](https://coveralls.io/repos/github/dunbarcyber/cyphon/badge.svg?maxAge=0)](https://coveralls.io/github/dunbarcyber/cyphon) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c77cf13e942d465389978df70278c2ad)](https://www.codacy.com/app/lhadjchikh/cyphon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dunbarcyber/cyphon&amp;utm_campaign=Badge_Grade) [![Updates](https://pyup.io/repos/github/dunbarcyber/cyphon/shield.svg)](https://pyup.io/repos/github/dunbarcyber/cyphon/) [![Documentation Status](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](https://cyphon.readthedocs.io/en/latest/) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/cyphonproject/Lobby)
-
-[![Cyphon](https://github.com/dunbarcyber/cyphon/blob/master/docs/source/_static/images/cyphon-logo.png)](https://cyphon.io)
+[![Cyphon](https://github.com/bezdeepcode/cyphon/blob/master/docs/source/_static/images/cyphon-logo.png)](https://github.com/bezdeepcode/cyphon)
 
 # Cyphon
 
@@ -14,21 +12,21 @@ Cyphon is an incident-response platform that receives, processes, and triages ev
 
 Cyphon collects data from a variety of sources, including emails, log messages, and social media. It lets you shape the data however you like, so it’s easier for you to analyze. You can also enhance your data with automated analyses, like geocoding.
 
-![Cyphon admin dashboard](https://github.com/dunbarcyber/cyphon/blob/master/docs/source/_static/images/screenshots/cyphon-admin.png)
+![Cyphon admin dashboard](https://github.com/bezdeepcode/cyphon/blob/master/docs/source/_static/images/screenshots/cyphon-admin.png)
 
 **Alert**
 
 Cyphon creates alerts for important data as it arrives, so you’re notified when something of interest happens. You can prioritize alerts using custom rulesets, and bundle related alerts so you don't get inundated.
 
-![Cyclops UI dashboard view](https://github.com/dunbarcyber/cyphon/blob/master/docs/source/_static/images/screenshots/cyclops-dashboard.png)
+![Cyclops UI dashboard view](https://github.com/bezdeepcode/cyphon/blob/master/docs/source/_static/images/screenshots/cyclops-dashboard.png)
 
 **Respond**
 
 Analysts can quickly investigate alerts by exploring related data, and annotate alerts with their findings. With JIRA integration, they can escalate important alerts by creating a ticket in Service Desk.
 
-![Cyclops UI alert view](https://github.com/dunbarcyber/cyphon/blob/master/docs/source/_static/images/screenshots/cyclops-alerts.png)
+![Cyclops UI alert view](https://github.com/bezdeepcode/cyphon/blob/master/docs/source/_static/images/screenshots/cyclops-alerts.png)
 
-![Cyclops UI related data panel](https://github.com/dunbarcyber/cyphon/blob/master/docs/source/_static/images/screenshots/related-data.png)
+![Cyclops UI related data panel](https://github.com/bezdeepcode/cyphon/blob/master/docs/source/_static/images/screenshots/related-data.png)
 
 ## Use Cases
 
@@ -72,7 +70,7 @@ Cyphon works with the help of several open source projects. To get Cyphon up and
 * [RabbitMQ](https://www.rabbitmq.com/) message broker
 * [Logstash](https://www.elastic.co/products/logstash/) data ingestion tool
 
-Our Docker Compose files are available on GitHub as [Cyphondock](https://github.com/dunbarcyber/cyphondock). If you'd like to work with our Docker image directly, you can find it on [Docker Hub](https://hub.docker.com/r/dunbar/cyphon/):
+Our Docker Compose files are available on GitHub as [Cyphondock](https://github.com/bezdeepcode/cyphondock). If you'd like to work with our Docker image directly, you can find it on [Docker Hub](https://hub.docker.com/r/dunbar/cyphon/):
 
 
 ## Documentation
